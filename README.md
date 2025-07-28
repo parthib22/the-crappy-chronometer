@@ -1,9 +1,11 @@
 # The Crappy Chronometer
+# the crappy chronometer
 
-A simple clock that displays the current time as a QR code that can be scanned to view the time.
+A clock that displays the current time as a QR code that can be scanned to view the time.
 
 ## 🚀 Live Demo
 
+Visit the live demo: [https://parthib22.github.io/the-crappy-chronometer/](https://parthib22.github.io/the-crappy-chronometer/)
 Visit the live demo: [https://parthib22.github.io/the-crappy-chronometer/](https://parthib22.github.io/the-crappy-chronometer/)
 
 ## 🛠️ Development
