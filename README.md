@@ -1,0 +1,81 @@
+# QR Clock
+
+A simple clock that displays the current time as a QR code that can be scanned to view the time.
+
+## 🚀 Live Demo
+
+Visit the live demo: [https://parthib22.github.io/theqrclock/](https://parthib22.github.io/theqrclock/)
+
+## 🛠️ Development
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm
+
+### Getting Started
+
+1. Clone the repository:
+```bash
+git clone https://github.com/parthib22/theqrclock.git
+cd theqrclock
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open your browser and visit `http://localhost:3000`
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+This creates a `dist/` folder with the production-ready files.
+
+## 📦 Deployment
+
+This project is automatically deployed to GitHub Pages using GitHub Actions. Every push to the `main` branch triggers a new deployment.
+
+### Manual GitHub Pages Setup
+
+If you fork this repository, you'll need to:
+
+1. Go to your repository settings
+2. Navigate to "Pages" in the sidebar
+3. Under "Source", select "GitHub Actions"
+4. The workflow will automatically deploy on the next push to `main`
+
+## 🏗️ Tech Stack
+
+- **Bundler**: Webpack 5
+- **QR Code Generation**: [qrcode](https://www.npmjs.com/package/qrcode) npm package
+- **Styling**: CSS3 with Inter font
+- **Deployment**: GitHub Pages via GitHub Actions
+
+## 📱 Features
+
+- Real-time QR code generation
+- Updates every second
+- Mobile-responsive design
+- Offline functionality (after first load)
+- Clean, minimalist interface
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m 'Add amazing feature'`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the ISC License.
