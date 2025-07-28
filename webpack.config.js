@@ -12,7 +12,7 @@ module.exports = (env, argv) => {
       path: path.resolve(__dirname, "dist"),
       clean: true,
       // Set public path for GitHub Pages
-      publicPath: isProduction ? "/theqrclock/" : "/",
+      publicPath: isProduction ? "/the-crappy-chronometer/" : "/",
     },
     devServer: {
       static: "./dist",

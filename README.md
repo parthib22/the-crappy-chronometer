@@ -1,31 +1,35 @@
-# QR Clock
+# The Crappy Chronometer
 
 A simple clock that displays the current time as a QR code that can be scanned to view the time.
 
 ## 🚀 Live Demo
 
-Visit the live demo: [https://parthib22.github.io/theqrclock/](https://parthib22.github.io/theqrclock/)
+Visit the live demo: [https://parthib22.github.io/the-crappy-chronometer/](https://parthib22.github.io/the-crappy-chronometer/)
 
 ## 🛠️ Development
 
 ### Prerequisites
+
 - Node.js (v18 or higher)
 - npm
 
 ### Getting Started
 
 1. Clone the repository:
+
 ```bash
-git clone https://github.com/parthib22/theqrclock.git
-cd theqrclock
+git clone https://github.com/parthib22/the-crappy-chronometer.git
+cd the-crappy-chronometer
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Start the development server:
+
 ```bash
 npm run dev
 ```
