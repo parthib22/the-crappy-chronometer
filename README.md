@@ -46,7 +46,18 @@ This creates a `dist/` folder with the production-ready files.
 
 ## 📦 Deployment
 
-This project is automatically deployed to GitHub Pages using GitHub Actions. Every push to the `main` branch triggers a new deployment.
+### Vercel (Recommended)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/parthib22/the-crappy-chronometer)
+
+1. Click the "Deploy with Vercel" button above
+2. Connect your GitHub account
+3. The project will be automatically built and deployed
+4. Your site will be live at a custom Vercel URL
+
+### GitHub Pages (Alternative)
+
+This project can also be deployed to GitHub Pages using GitHub Actions. Every push to the `main` branch triggers a new deployment.
 
 ### Manual GitHub Pages Setup
 
